@@ -107,7 +107,7 @@ def addBookTag(catalog, booktag):
 
 
 # Funciones para creacion de datos
-
+ 
 def newAuthor(name):
     """
     Crea una nueva estructura para modelar los libros de
@@ -189,7 +189,7 @@ def compareauthors(authorname1, author):
 
 def compareratings(book1, book2):
     # TODO completar modificaciones para el laboratorio 4
-    return (float(book1['average_rating']) > float(book2['average_rating']))
+    return (float(book1['average_rating']) < float(book2['average_rating']))
 
 
 def comparetagnames(name, tag):
